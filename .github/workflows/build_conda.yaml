@@ -32,6 +32,7 @@ jobs:
         with:
           meta_yaml_dir: .
           overwrite: true
+          extra_config: "-c conda-forge -c phygbu"
           python-version: ${{ matrix.python-version }} # Values previously defined in `matrix`
           user: phygbu
           label: main
