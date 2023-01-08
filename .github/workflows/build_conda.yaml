@@ -28,7 +28,7 @@ jobs:
           auto-activate-base: false
           show-channel-urls: true
       - name: Build and upload the conda packages
-        uses: gb119/action-build-and-upload-conda-packages@v0.1.0
+        uses: gb119/action-build-and-upload-conda-packages@v0.1.1
         with:
           meta_yaml_dir: .
           overwrite: true
