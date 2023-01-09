@@ -26,7 +26,7 @@ jobs:
           extra-specs: |
             python=${{ matrix.python-version }}
       - name: Build and upload the conda packages
-        uses: gb119/action-build-and-upload-conda-packages@v0.1.10
+        uses: gb119/action-build-and-upload-conda-packages@v0.1.11
         with:
           meta_yaml_dir: .
           overwrite: true
